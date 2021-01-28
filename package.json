@@ -1,0 +1,27 @@
+{
+  "name": "geojson2obj",
+  "version": "2.0.2",
+  "description": "Convert GeoJSON into Wavefront OBJ format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geojson",
+    "wavefront",
+    "obj"
+  ],
+  "author": "Per Liedman <per@liedman.net>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0",
+    "earcut": "^2.2.2",
+    "extend": "^3.0.0",
+    "local-proj": "^2.0.1",
+    "polyline-normals": "^2.0.2",
+    "proj4": "^2.4.0",
+    "reproject": "^1.0.0",
+    "three": "^0.124.0",
+    "turf-meta": "^3.0.12"
+  }
+}
